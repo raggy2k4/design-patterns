@@ -1,4 +1,4 @@
-package com.company.factory;
+package com.company.factory.chair;
 
 public class VintageChair implements Armchair{
 

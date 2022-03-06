@@ -9,7 +9,7 @@
 
 */
 
-package com.company.factory;
+package com.company.factory.chair;
 
 public class ChairFactory {
     private static ChairFactory chairFactoryInstance;
