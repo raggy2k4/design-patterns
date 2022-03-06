@@ -6,8 +6,6 @@
     - skaplikowanie klasy przez wieksza ilosc dodatkowych linijek
 */
 
-
-
 package com.company.builder;
 
 public class Person {
