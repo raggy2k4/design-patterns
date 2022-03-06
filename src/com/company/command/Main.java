@@ -1,4 +1,10 @@
-/* Po co uzywamy:
+package com.company.command;
+
+import com.company.command.cmd.ShakerCleanCommand;
+import com.company.command.cmd.ShakerTurnOffCommand;
+import com.company.command.cmd.ShakerTurnOnCommand;
+
+/** Po co uzywamy:
     + zasada pojedynczej odpowiedzialnosci
     + pozwala implementowac cofnij ponow
     + mozna zlozyc zestaw z wielu prostych komend
@@ -13,13 +19,6 @@
       pomiędzy nadawcami a odbiorcami.
     - skaplikowanie klasy przez wieksza ilosc dodatkowych linijek
 */
-
-
-package com.company.command;
-
-import com.company.command.cmd.ShakerCleanCommand;
-import com.company.command.cmd.ShakerTurnOffCommand;
-import com.company.command.cmd.ShakerTurnOnCommand;
 
 public class Main {
     public static void main(String[] args) {

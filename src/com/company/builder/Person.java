@@ -1,11 +1,3 @@
-/* Po co uzywamy:
-    + tworzenie danego obiektu klasy jest czytelniejsze
-    + odizolowanie logiki biznesowej od kodu konstrukcyjnego
-    + tworzenie zlozonych obiektow etapami
-    + wieloktorne wykoszystanie kodu konstrukcyjnego
-    - skaplikowanie klasy przez wieksza ilosc dodatkowych linijek
-*/
-
 package com.company.builder;
 
 public class Person {
@@ -71,5 +63,6 @@ public class Person {
             person.setAge(age);
             return person;
         }
+
     }
 }

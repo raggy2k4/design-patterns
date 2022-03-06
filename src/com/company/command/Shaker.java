@@ -8,7 +8,7 @@ public class Shaker {
     public void turnOff(){
         System.out.println("Shaker turned off");
     }
-   public void clean(){
+    public void clean(){
         System.out.println("Shaker clean");
     }
 
